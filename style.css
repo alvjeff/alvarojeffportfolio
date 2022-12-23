@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+/*estilizacao cabeçalho*/
+header{
+    background-color:brown;
+}
+
+.menu{
+    float: right;
+    margin-right: 20px;
+    color: aliceblue;
+}
+.logo{
+    float: left;
+    color: aliceblue;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+
+/*div.sobre*/
+.sobre{
+    border: 1px solid red;
+    background-color:crimson;
+    margin: 0 auto;
+    text-align: center;
+    /* width: 80%; */
+    color: aliceblue;
+    
+}
+.sobre div{
+    width: 80%;
+    margin: 30px auto;
+}
+.sobre h2{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.sobre p{
+    margin: 30px auto;
+}
+.sobre a{
+    margin: 10px auto;
+    border: 1px solid red;
+    padding: 6px 35px;
+    font-size: 20pt;
+    border-radius: 5px;
+    
+}
+.sobre a:hover{
+    background-color: coral;
+    transition: 1s;
+}
+
+/*div.tecnologias*/
+.tecnologias{
+    margin: 10px auto;
+    border: 1px solid red;
+    text-align: center;
+
+}
+.item-tec{
+    border: 1px solid red;
+    display: inline-block;
+    width: 20%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/*div.projetos*/
+.projetos{
+    border: 1px solid red;
+    margin: 10px auto;
+    text-align: center;
+}
+.item-proj{
+    display: inline-block;
+    border: 1px solid red;
+    width: 20%;
+}
+
+/*rodapé*/
+footer{
+    background-color: aquamarine;
+    border: 20px auto;
+    text-align: center;
+}
